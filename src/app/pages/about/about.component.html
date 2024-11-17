@@ -1,0 +1,23 @@
+
+    <section class="p-8 bg-gray-100">
+      <div
+        
+      >
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="text-lg">
+          I'm a frontend web developer with over 2 years of experience with a
+          strong focus on creating visually appealing, responsive and scalable
+          websites and web applications. Feel free to connect and share your
+          project ideas and I would be delighted to collaborate with you and
+          help bring your ideas into reality. I look forward to hearing from you
+        </p>
+      </div>
+       <h2 class="text-3xl font-bold mb-4">Skills</h2>
+  <div class="grid grid-cols-2  gap-4">
+    
+    <div *ngFor="let skill of skills; let i = index" class="bg-blue-500 sm:text-center text-black p-4 rounded-lg shadow-lg hover:bg-blue-600 cursor-pointer">
+  {{ skill }}
+</div>
+</div>
+    </section>
+ 
